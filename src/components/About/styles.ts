@@ -42,6 +42,52 @@ export const Container = styled.section`
     letter-spacing: 0.1rem;
     font-weight: 500;
   }
+
+  .text-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .skill-tag {
+    background: linear-gradient(135deg, var(--green), #1ca757);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    animation: floatUpDown 3s ease-in-out infinite;
+    box-shadow: 0 4px 8px rgba(35, 206, 107, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px) scale(1.05);
+      box-shadow: 0 8px 16px rgba(35, 206, 107, 0.5);
+    }
+
+    &:nth-child(2n) {
+      animation-delay: -1s;
+    }
+
+    &:nth-child(3n) {
+      animation-delay: -2s;
+    }
+
+    &:nth-child(4n) {
+      animation-delay: -0.5s;
+    }
+  }
+
+  @keyframes floatUpDown {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
     
   
   

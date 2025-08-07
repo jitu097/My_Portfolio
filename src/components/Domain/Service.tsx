@@ -16,7 +16,7 @@ export function Service() {
             </header>
             <div className="body">
               <h3>Data Structures & Algorithms</h3>
-              <p>My passion lies in data structures and algorithms (DSA). I dedicate significant time to practicing on platforms like LeetCode and GeeksforGeeks. I have successfully solved over 300 problems on these platforms, constantly striving to enhance my DSA skills and remain at the forefront of algorithmic problem-solving.</p>
+              <p>I'm deeply passionate about Data Structures and Algorithms (DSA) and regularly practice on platforms like LeetCode and GeeksforGeeks. With over 300 problems solved, I continuously refine my problem-solving skills and analytical thinking to stay sharp and competitive in algorithmic challenges.</p>
               <a href="https://codolio.com/profile/Jitendra_2" className="progress-btn">Progress</a>
             </div>
             <footer>
@@ -39,8 +39,8 @@ export function Service() {
             </header>
             <div className="body">
               <h3>Full Stack Development</h3>
-              <p>My core strength lies in frontend web development, and I'm actively developing my backend skills.I have successfully completed numerous projects in web devlopement over the years.</p>
-              <a href="https://codolio.com/profile/Jitendra_2" className="progress-btn">Progress</a>
+              <p>My core strength lies in frontend web development, with hands-on experience in React, JavaScript, HTML, and CSS, creating responsive and user-friendly interfaces. I'm now expanding my skills in backend development using Node.js, Express, and MongoDB to grow as a complete Full Stack Developer.</p>
+              <a href="hhttps://e-finance-lipu.onrender.com" className="progress-btn">Progress</a>
             </div>
             <footer>
               <ul className="tech-list">
@@ -62,8 +62,8 @@ export function Service() {
             </header>
             <div className="body">
               <h3>Machine Learning</h3>
-              <p>Working on ML projects and exploring AI technologies for real-world applications.</p>
-              <a href="https://codolio.com/profile/Jitendra_2" className="progress-btn">Progress</a>
+              <p>I'm actively learning Machine Learning (ML) and exploring AI technologies to understand their potential in solving real-world problems. Through hands-on projects and continuous learning, I'm building a strong foundation in Python, scikit-learn, and data preprocessing techniques, with a keen interest in applying these skills to practical applications in the future.</p>
+              <a href="https://face-insight.vercel.app/" className="progress-btn">Progress</a>
             </div>
             <footer>
               <ul className="tech-list">

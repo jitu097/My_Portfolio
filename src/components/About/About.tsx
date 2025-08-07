@@ -21,7 +21,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-          I'm Jitendra Kumar, currently pursuing B.Tech from Bennett University. Throughout my engineering journey, I have consistently honed my problem-solving skills by tackling a wide range of Data Structures and Algorithms (DSA) challenges on platforms such as Leetcode and GeeksforGeeks. Additionally, I have actively participated in numerous hackathons, utilizing my technical expertise to develop innovative solutions and collaborate effectively in high-pressure environments.
+          I’m Jitendra Kumar, currently pursuing B.Tech from Bennett University.My key areas of interest include Data Structures and Algorithms and Web Development.I regularly practice problem-solving to strengthen my logical and analytical thinking.Alongside academics, I’ve worked on several development projects to apply my learning.Participating in hackathons has helped me collaborate under pressure and build real-world solutions.This combination of consistent practice and practical exposure defines my engineering journey.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
@@ -29,8 +29,8 @@ export function About() {
         </ScrollAnimation>
         <div className="text-skills">
         {[
-          "HTML", "CSS", "JavaScript", "ReactJS", "Java",
-          "MySQL", "MongoDB", "Python", "Angular", "Bootstrap"
+          "HTML", "CSS", "JavaScript", "ReactJS", "Java","Nodejs",
+          "MySQL", "MongoDB", "Python", 
         ].map((skill, index) => (
           <ScrollAnimation 
             key={index} 
